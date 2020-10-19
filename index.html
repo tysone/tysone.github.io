@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Tyson Evans</title>
 
@@ -11,11 +11,11 @@
 
     <meta charset="utf-8"/>
 
-    <style type="text/css" media="screen">
+    <style media="screen">
 
       body {
         font-family: 'Libre Franklin', sans-serif;
-        color: #002C40;
+        color: rgb(0,44,64);
         font-size: clamp(18px, 2.5vmin, 29px);
         line-height: 1.5;
         max-width: 78vmin;
@@ -23,8 +23,16 @@
         background-color: #fff;
       }
 
+      @media (min-width:1281px) {
+        body {
+          max-width: 860px
+        }
+      }
+
+
       a {
         text-decoration-skip: ink;
+        pointer-events: auto;
       }
 
       a, a:visited {
@@ -38,6 +46,21 @@
         font-weight: 900;
       }
 
+      .content {pointer-events: none;}
+
+      .content p:first-of-type {text-indent:-1.2em;}
+
+      .content p {transition: color 0.5s ease-in-out;}
+
+      .content:hover p  {
+        color: rgb(0,44,64,.4);
+      }
+
+      .content a:hover {
+        color: rgb(0,187,224,1);
+        transition: color 0.5s ease-in-out;
+      }
+
     </style>
 
   </head>
@@ -48,10 +71,10 @@
       <p>👋🏻 I am a senior editor and director for product and strategy at <a href="http://www.nytimes.com">The New York Times</a>, working to transform the Times’s business and journalism.</p>
 
       <p>I’m currently embedded with Opinion, helping imagine the future of commentary and debate. I was a co-author of the ‘<a href="https://www.nytimes.com/projects/2020-report/index.html">2020 Report</a>’​ on the future of the newsroom and, previously, was deputy editor on the Times’s <a href="https://github.com/newsdev/about-int">interactive news desk</a>, designing and building web apps on deadline.</p>
-      </p>
+
       <p>I'm a past-president of <a href="http://www.snd.org">The Society for News Design</a>, which champions visual journalism, and taught as an adjunct professor and guest instructor at The New School, Columbia University and Stanford’s d.school.</p>
 
-      <p>Email <a href="mailto:&#116;&#121;&#115;&#111;&#110;&#046;&#101;&#118;&#097;&#110;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#116;&#121;&#115;&#111;&#110;&#046;&#101;&#118;&#097;&#110;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a> or find me on <a href="http://www.twitter.com/tysone">Twitter</a>, <a href="">GitHub</a> or <a href="http://www.linkedin.com/in/tysone">LinkedIn.</a></p>
+      <p>Email <a href="mailto:&#116;&#121;&#115;&#111;&#110;&#046;&#101;&#118;&#097;&#110;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#116;&#121;&#115;&#111;&#110;&#046;&#101;&#118;&#097;&#110;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a> or find me on <a href="http://www.twitter.com/tysone">Twitter</a>, <a href="https://github.com/tysone">GitHub</a> or <a href="http://www.linkedin.com/in/tysone">LinkedIn.</a></p>
   </div>
 
   </body>
